@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448ACFB47E71CB16F691B4C68EB66237 /* JWAdjustablePositionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5C1A0E684F6D809FFDDDB6C45339EB /* JWAdjustablePositionButton-dummy.m */; };
+		8F4FBACC8D14F9DBFBBBA7EAA834D11D /* JWAdjustablePositionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEAEAA6AB9D69D0DCE89CB6DEEF89F7 /* JWAdjustablePositionButton.swift */; };
+		9059D5C038C0A5096AE657894B059CB2 /* Pods-JWAdjustablePositionButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A93C081E330F319B95D0365E76A59 /* Pods-JWAdjustablePositionButton_Example-dummy.m */; };
+		BAC45FA695D0FC262D965623EA40AB61 /* JWAdjustablePositionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DCF8F9E5C36EE15C4549CBC9493C8D5 /* JWAdjustablePositionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91C0D14DBE34FCBDFEB1AF85608A7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D693C19F8E6D7B4573259943AB4702DD /* Pods-JWAdjustablePositionButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB507338885096BEC3E7B375C510674 /* Pods-JWAdjustablePositionButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECFAFF594B5618B3DCD70B40E4C07071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EE481A779E030D6A6E6F078D29A25C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EF7488EF68CD8361040AD3CA053FD23E /* Pods-JWAdjustablePositionButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 308A352F05D88CD6336480E3B305CCBB /* Pods-JWAdjustablePositionButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65984E7A83539713345716DE201A730 /* Pods-JWAdjustablePositionButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9235626F43437C4E2E5CBAE2CC35285D /* Pods-JWAdjustablePositionButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80098D824A74A4F5787EFD0BAE5A9582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FFDB986158784D4A75DEA8434E40359;
+			remoteInfo = "Pods-JWAdjustablePositionButton_Example";
+		};
+		86CF4D20417B3BA86997C4D4ECE45F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933B848387D1F24B8F758DD0563FCC9F;
+			remoteInfo = JWAdjustablePositionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105AB3D28EBA856B21224427E2EA23ED /* Pods-JWAdjustablePositionButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWAdjustablePositionButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CCCAC05CA4C77B068B48287AEA49B0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		308A352F05D88CD6336480E3B305CCBB /* Pods-JWAdjustablePositionButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWAdjustablePositionButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		35A23DDB136EBAB609C0B929967BB109 /* Pods-JWAdjustablePositionButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAdjustablePositionButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		385C03AA28D92B1E47C8D5B3CAE6AFA2 /* Pods-JWAdjustablePositionButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWAdjustablePositionButton_Example.modulemap"; sourceTree = "<group>"; };
+		421A0FE786B52D1EBB910628820EE808 /* JWAdjustablePositionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JWAdjustablePositionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5545DB73939138A6C89653FFACC25A02 /* Pods_JWAdjustablePositionButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWAdjustablePositionButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		599A96C503EED970C1A1800E5EC1B456 /* JWAdjustablePositionButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JWAdjustablePositionButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWAdjustablePositionButton.xcconfig; sourceTree = "<group>"; };
+		62D3E74A153A0D5CB4B118D131D30E96 /* Pods-JWAdjustablePositionButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAdjustablePositionButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		64EB59DFAC9310EA4C768F6E4DCA5C29 /* JWAdjustablePositionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWAdjustablePositionButton.modulemap; sourceTree = "<group>"; };
+		76AC58DDF7A614E4A8FA1C9AC77514FB /* Pods-JWAdjustablePositionButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWAdjustablePositionButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8170C76ACBBA561F9F931F1FD4F317B3 /* Pods-JWAdjustablePositionButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAdjustablePositionButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DEC0F6B9790B5BFF020A89B3F01D29D /* JWAdjustablePositionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWAdjustablePositionButton-prefix.pch"; sourceTree = "<group>"; };
+		9235626F43437C4E2E5CBAE2CC35285D /* Pods-JWAdjustablePositionButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWAdjustablePositionButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		9735802D0DFF22D5C888869B74256180 /* Pods-JWAdjustablePositionButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWAdjustablePositionButton_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCF8F9E5C36EE15C4549CBC9493C8D5 /* JWAdjustablePositionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWAdjustablePositionButton-umbrella.h"; sourceTree = "<group>"; };
+		9FD44D5A818B81DAD8E0D209D1C8984D /* JWAdjustablePositionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JWAdjustablePositionButton-Info.plist"; sourceTree = "<group>"; };
+		AA4CDB2FBBF1CB795226D86ED04824B1 /* Pods-JWAdjustablePositionButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAdjustablePositionButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC189CBA758C91E0585153DEAE5FE017 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC5C1A0E684F6D809FFDDDB6C45339EB /* JWAdjustablePositionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWAdjustablePositionButton-dummy.m"; sourceTree = "<group>"; };
+		BD5003138D9382202B81E9464A40CEC5 /* Pods-JWAdjustablePositionButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAdjustablePositionButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C192308883892D5785560176F91BFE41 /* Pods-JWAdjustablePositionButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWAdjustablePositionButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C9C5B0B0138AB81D06F2300C4C90369E /* Pods-JWAdjustablePositionButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAdjustablePositionButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBEAEAA6AB9D69D0DCE89CB6DEEF89F7 /* JWAdjustablePositionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWAdjustablePositionButton.swift; path = JWAdjustablePositionButton/Classes/JWAdjustablePositionButton.swift; sourceTree = "<group>"; };
+		D8D3D92C367136D03988CB4A475DC3DC /* Pods_JWAdjustablePositionButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWAdjustablePositionButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60A93C081E330F319B95D0365E76A59 /* Pods-JWAdjustablePositionButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWAdjustablePositionButton_Example-dummy.m"; sourceTree = "<group>"; };
+		EA8FDF235927E734D199FD3B649575B2 /* Pods-JWAdjustablePositionButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAdjustablePositionButton_Example-Info.plist"; sourceTree = "<group>"; };
+		ECB507338885096BEC3E7B375C510674 /* Pods-JWAdjustablePositionButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JWAdjustablePositionButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		FED4223B7FBAA41164F27AA58BFA1890 /* Pods-JWAdjustablePositionButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAdjustablePositionButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C84D3AD741922446A4B04BC7A76D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE481A779E030D6A6E6F078D29A25C55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA7BE2B321BC743BBECC64927DD2CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFAFF594B5618B3DCD70B40E4C07071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98A9003A96CD81F30BF453988B4CC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91C0D14DBE34FCBDFEB1AF85608A7CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26684C3E12FFDBBDB05EC544E36D553E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64EB59DFAC9310EA4C768F6E4DCA5C29 /* JWAdjustablePositionButton.modulemap */,
+				5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */,
+				BC5C1A0E684F6D809FFDDDB6C45339EB /* JWAdjustablePositionButton-dummy.m */,
+				9FD44D5A818B81DAD8E0D209D1C8984D /* JWAdjustablePositionButton-Info.plist */,
+				8DEC0F6B9790B5BFF020A89B3F01D29D /* JWAdjustablePositionButton-prefix.pch */,
+				9DCF8F9E5C36EE15C4549CBC9493C8D5 /* JWAdjustablePositionButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JWAdjustablePositionButton";
+			sourceTree = "<group>";
+		};
+		2EA0F14385E26A2613FDC4408F3254D0 /* JWAdjustablePositionButton */ = {
+			isa = PBXGroup;
+			children = (
+				CBEAEAA6AB9D69D0DCE89CB6DEEF89F7 /* JWAdjustablePositionButton.swift */,
+				7989CD1A26A981B3B135969E3822677B /* Pod */,
+				26684C3E12FFDBBDB05EC544E36D553E /* Support Files */,
+			);
+			name = JWAdjustablePositionButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3A83A75FAFD46A91E1BAE48317D2A5B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EA0F14385E26A2613FDC4408F3254D0 /* JWAdjustablePositionButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		503BA6F9B68933853D851E37834165E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6738877EFA22692F66D8FE8AF39166A /* Pods-JWAdjustablePositionButton_Example */,
+				BE390479DC3793CC4844B70878987954 /* Pods-JWAdjustablePositionButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7989CD1A26A981B3B135969E3822677B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				599A96C503EED970C1A1800E5EC1B456 /* JWAdjustablePositionButton.podspec */,
+				2CCCAC05CA4C77B068B48287AEA49B0B /* LICENSE */,
+				AC189CBA758C91E0585153DEAE5FE017 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88C1A7B914CBB81E126F847F579F492E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421A0FE786B52D1EBB910628820EE808 /* JWAdjustablePositionButton.framework */,
+				D8D3D92C367136D03988CB4A475DC3DC /* Pods_JWAdjustablePositionButton_Example.framework */,
+				5545DB73939138A6C89653FFACC25A02 /* Pods_JWAdjustablePositionButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE390479DC3793CC4844B70878987954 /* Pods-JWAdjustablePositionButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9735802D0DFF22D5C888869B74256180 /* Pods-JWAdjustablePositionButton_Tests.modulemap */,
+				76AC58DDF7A614E4A8FA1C9AC77514FB /* Pods-JWAdjustablePositionButton_Tests-acknowledgements.markdown */,
+				FED4223B7FBAA41164F27AA58BFA1890 /* Pods-JWAdjustablePositionButton_Tests-acknowledgements.plist */,
+				9235626F43437C4E2E5CBAE2CC35285D /* Pods-JWAdjustablePositionButton_Tests-dummy.m */,
+				62D3E74A153A0D5CB4B118D131D30E96 /* Pods-JWAdjustablePositionButton_Tests-Info.plist */,
+				308A352F05D88CD6336480E3B305CCBB /* Pods-JWAdjustablePositionButton_Tests-umbrella.h */,
+				35A23DDB136EBAB609C0B929967BB109 /* Pods-JWAdjustablePositionButton_Tests.debug.xcconfig */,
+				AA4CDB2FBBF1CB795226D86ED04824B1 /* Pods-JWAdjustablePositionButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-JWAdjustablePositionButton_Tests";
+			path = "Target Support Files/Pods-JWAdjustablePositionButton_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3A83A75FAFD46A91E1BAE48317D2A5B2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88C1A7B914CBB81E126F847F579F492E /* Products */,
+				503BA6F9B68933853D851E37834165E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6738877EFA22692F66D8FE8AF39166A /* Pods-JWAdjustablePositionButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				385C03AA28D92B1E47C8D5B3CAE6AFA2 /* Pods-JWAdjustablePositionButton_Example.modulemap */,
+				105AB3D28EBA856B21224427E2EA23ED /* Pods-JWAdjustablePositionButton_Example-acknowledgements.markdown */,
+				C9C5B0B0138AB81D06F2300C4C90369E /* Pods-JWAdjustablePositionButton_Example-acknowledgements.plist */,
+				E60A93C081E330F319B95D0365E76A59 /* Pods-JWAdjustablePositionButton_Example-dummy.m */,
+				C192308883892D5785560176F91BFE41 /* Pods-JWAdjustablePositionButton_Example-frameworks.sh */,
+				EA8FDF235927E734D199FD3B649575B2 /* Pods-JWAdjustablePositionButton_Example-Info.plist */,
+				ECB507338885096BEC3E7B375C510674 /* Pods-JWAdjustablePositionButton_Example-umbrella.h */,
+				BD5003138D9382202B81E9464A40CEC5 /* Pods-JWAdjustablePositionButton_Example.debug.xcconfig */,
+				8170C76ACBBA561F9F931F1FD4F317B3 /* Pods-JWAdjustablePositionButton_Example.release.xcconfig */,
+			);
+			name = "Pods-JWAdjustablePositionButton_Example";
+			path = "Target Support Files/Pods-JWAdjustablePositionButton_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DD281DF4E6A2026D03014354831B3F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC45FA695D0FC262D965623EA40AB61 /* JWAdjustablePositionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE3A4F0505DBA8FA658E67634598C9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7488EF68CD8361040AD3CA053FD23E /* Pods-JWAdjustablePositionButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA23F11148142F8A3B9E11E2B429C3BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D693C19F8E6D7B4573259943AB4702DD /* Pods-JWAdjustablePositionButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60675F5E5F812644F91733779ACD358C /* Pods-JWAdjustablePositionButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD03F5807A503D69D76B0666D146DCA /* Build configuration list for PBXNativeTarget "Pods-JWAdjustablePositionButton_Tests" */;
+			buildPhases = (
+				AFE3A4F0505DBA8FA658E67634598C9B /* Headers */,
+				C57D0FAB6BE4F9F3B521EF99B6EF6802 /* Sources */,
+				00C84D3AD741922446A4B04BC7A76D57 /* Frameworks */,
+				7DCD06876C174E31820D437EB7CC95B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D3E1C8636C1C16C28C56D3E00FCC0E /* PBXTargetDependency */,
+			);
+			name = "Pods-JWAdjustablePositionButton_Tests";
+			productName = "Pods-JWAdjustablePositionButton_Tests";
+			productReference = 5545DB73939138A6C89653FFACC25A02 /* Pods_JWAdjustablePositionButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FFDB986158784D4A75DEA8434E40359 /* Pods-JWAdjustablePositionButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3C78F9A6EF6C8B08B16689D80DE279 /* Build configuration list for PBXNativeTarget "Pods-JWAdjustablePositionButton_Example" */;
+			buildPhases = (
+				FA23F11148142F8A3B9E11E2B429C3BF /* Headers */,
+				DC521F9FDAE724958C339B690AEDCF72 /* Sources */,
+				1FA7BE2B321BC743BBECC64927DD2CFB /* Frameworks */,
+				DFA371D5918BDDB5FEA3C5F51E38D958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E2A1A35D34E6E28F6892F6FB0300E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWAdjustablePositionButton_Example";
+			productName = "Pods-JWAdjustablePositionButton_Example";
+			productReference = D8D3D92C367136D03988CB4A475DC3DC /* Pods_JWAdjustablePositionButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		933B848387D1F24B8F758DD0563FCC9F /* JWAdjustablePositionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DAAD4AA5495AE1589D9B5CAF70D74D /* Build configuration list for PBXNativeTarget "JWAdjustablePositionButton" */;
+			buildPhases = (
+				3DD281DF4E6A2026D03014354831B3F4 /* Headers */,
+				125E39724F9D925B8048EC04DDB4F137 /* Sources */,
+				C98A9003A96CD81F30BF453988B4CC45 /* Frameworks */,
+				5C1B72698BB138E6515A0B170FE2F341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWAdjustablePositionButton;
+			productName = JWAdjustablePositionButton;
+			productReference = 421A0FE786B52D1EBB910628820EE808 /* JWAdjustablePositionButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 88C1A7B914CBB81E126F847F579F492E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933B848387D1F24B8F758DD0563FCC9F /* JWAdjustablePositionButton */,
+				7FFDB986158784D4A75DEA8434E40359 /* Pods-JWAdjustablePositionButton_Example */,
+				60675F5E5F812644F91733779ACD358C /* Pods-JWAdjustablePositionButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1B72698BB138E6515A0B170FE2F341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DCD06876C174E31820D437EB7CC95B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA371D5918BDDB5FEA3C5F51E38D958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125E39724F9D925B8048EC04DDB4F137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448ACFB47E71CB16F691B4C68EB66237 /* JWAdjustablePositionButton-dummy.m in Sources */,
+				8F4FBACC8D14F9DBFBBBA7EAA834D11D /* JWAdjustablePositionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57D0FAB6BE4F9F3B521EF99B6EF6802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65984E7A83539713345716DE201A730 /* Pods-JWAdjustablePositionButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC521F9FDAE724958C339B690AEDCF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9059D5C038C0A5096AE657894B059CB2 /* Pods-JWAdjustablePositionButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E2A1A35D34E6E28F6892F6FB0300E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWAdjustablePositionButton;
+			target = 933B848387D1F24B8F758DD0563FCC9F /* JWAdjustablePositionButton */;
+			targetProxy = 86CF4D20417B3BA86997C4D4ECE45F87 /* PBXContainerItemProxy */;
+		};
+		F5D3E1C8636C1C16C28C56D3E00FCC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JWAdjustablePositionButton_Example";
+			target = 7FFDB986158784D4A75DEA8434E40359 /* Pods-JWAdjustablePositionButton_Example */;
+			targetProxy = 80098D824A74A4F5787EFD0BAE5A9582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66B30B6803CDF4457D026FBA554F1195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A23DDB136EBAB609C0B929967BB109 /* Pods-JWAdjustablePositionButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Tests/Pods-JWAdjustablePositionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Tests/Pods-JWAdjustablePositionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B70E07990018C2D743720D043DE398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
+				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
+				PRODUCT_NAME = JWAdjustablePositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F1B596369573F8AB4CF6290BB6A3C88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8170C76ACBBA561F9F931F1FD4F317B3 /* Pods-JWAdjustablePositionButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Example/Pods-JWAdjustablePositionButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Example/Pods-JWAdjustablePositionButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD12C2949E322D088AE334B8649CEB08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
+				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
+				PRODUCT_NAME = JWAdjustablePositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8BBD89794FFDE841D87B8F7741DF74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5003138D9382202B81E9464A40CEC5 /* Pods-JWAdjustablePositionButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Example/Pods-JWAdjustablePositionButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Example/Pods-JWAdjustablePositionButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7265777BD38F5CA674DA4904A3F4D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4CDB2FBBF1CB795226D86ED04824B1 /* Pods-JWAdjustablePositionButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Tests/Pods-JWAdjustablePositionButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JWAdjustablePositionButton_Tests/Pods-JWAdjustablePositionButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DAAD4AA5495AE1589D9B5CAF70D74D /* Build configuration list for PBXNativeTarget "JWAdjustablePositionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B70E07990018C2D743720D043DE398 /* Debug */,
+				AD12C2949E322D088AE334B8649CEB08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3C78F9A6EF6C8B08B16689D80DE279 /* Build configuration list for PBXNativeTarget "Pods-JWAdjustablePositionButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BBD89794FFDE841D87B8F7741DF74F /* Debug */,
+				8F1B596369573F8AB4CF6290BB6A3C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD03F5807A503D69D76B0666D146DCA /* Build configuration list for PBXNativeTarget "Pods-JWAdjustablePositionButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B30B6803CDF4457D026FBA554F1195 /* Debug */,
+				F7265777BD38F5CA674DA4904A3F4D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

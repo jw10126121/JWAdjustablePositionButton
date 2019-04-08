@@ -1,0 +1,22 @@
+{
+  "name": "JWAdjustablePositionButton",
+  "version": "0.1.0",
+  "summary": "A short description of JWAdjustablePositionButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/10126121@qq.com/JWAdjustablePositionButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "10126121@qq.com": "10126121@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/10126121@qq.com/JWAdjustablePositionButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWAdjustablePositionButton/Classes/**/*"
+}

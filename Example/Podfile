@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JWAdjustablePositionButton_Example' do
+  pod 'JWAdjustablePositionButton', :path => '../'
+
+  target 'JWAdjustablePositionButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

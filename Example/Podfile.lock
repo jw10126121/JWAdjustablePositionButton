@@ -1,0 +1,16 @@
+PODS:
+  - JWAdjustablePositionButton (0.1.0)
+
+DEPENDENCIES:
+  - JWAdjustablePositionButton (from `../`)
+
+EXTERNAL SOURCES:
+  JWAdjustablePositionButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JWAdjustablePositionButton: cada249a3aaf1f36561f428912a27b32f10c3b99
+
+PODFILE CHECKSUM: 8918a8639419d89730d708e0aa38035a6af62255
+
+COCOAPODS: 1.7.0.beta.2
