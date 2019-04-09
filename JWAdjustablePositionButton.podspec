@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JWAdjustablePositionButton'
-    s.version          = '0.0.2'
+    s.version          = '0.0.3'
     s.summary          = 'JWAdjustablePositionButton.可调整图片与文字位置的按钮'
     s.homepage         = 'https://github.com/jw10126121/JWAdjustablePositionButton'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
