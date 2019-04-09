@@ -198,114 +198,114 @@ extension JWAdjustableButtonPosition: CustomStringConvertible {
         case .left:
             switch position {
             case .leftTextRightImage:
-                rect.origin.x = contentRect.minX;
-                break;
+                rect.origin.x = contentRect.minX
+                break
             case .leftImageRightText:
-                rect.origin.x = contentRect.minX + totalWidth - size.width;
-                break;
+                rect.origin.x = contentRect.minX + totalWidth - size.width
+                break
             default:
-                rect.origin.x = contentRect.minX;
-                break;
+                rect.origin.x = contentRect.minX
+                break
             }
-            break;
+            break
         case .right:
             switch position {
             case .leftTextRightImage:
-                rect.origin.x = contentRect.maxX - totalWidth;
-                break;
+                rect.origin.x = contentRect.maxX - totalWidth
+                break
             case .leftImageRightText:
-                rect.origin.x = contentRect.maxX - size.width;
-                break;
+                rect.origin.x = contentRect.maxX - size.width
+                break
             default:
-                rect.origin.x = contentRect.maxX - size.width;
-                break;
+                rect.origin.x = contentRect.maxX - size.width
+                break
             }
-            break;
+            break
         case .fill:
             switch position {
             case .leftTextRightImage:
-                rect.origin.x = contentRect.minX;
-                rect.size.width = min(size.width, contentRect.width - iconSize.width - margin);
-                break;
+                rect.origin.x = contentRect.minX
+                rect.size.width = min(size.width, contentRect.width - iconSize.width - margin)
+                break
             case .leftImageRightText:
-                rect.size.width = min(size.width, contentRect.width - iconSize.width - margin);
-                rect.origin.x = contentRect.maxX - rect.size.width;
-                break;
+                rect.size.width = min(size.width, contentRect.width - iconSize.width - margin)
+                rect.origin.x = contentRect.maxX - rect.size.width
+                break
             default:
-                rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2;
-                break;
+                rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2
+                break
             }
-            break;
+            break
         default:
             switch position {
             case .leftTextRightImage:
-                rect.origin.x = contentRect.minX + (contentRect.width - totalWidth) / 2;
-                break;
+                rect.origin.x = contentRect.minX + (contentRect.width - totalWidth) / 2
+                break
             case .leftImageRightText:
-                rect.origin.x = contentRect.minX + contentRect.width - (contentRect.width - totalWidth) / 2 - size.width;
-                break;
+                rect.origin.x = contentRect.minX + contentRect.width - (contentRect.width - totalWidth) / 2 - size.width
+                break
             default:
-                rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2;
-                break;
+                rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2
+                break
             }
-            break;
+            break
         }
         
         switch (self.contentVerticalAlignment) {
         case .top:
             switch position {
             case .topImageBottomText:
-                rect.origin.y = contentRect.minY + totalHeight - size.height;
-                break;
+                rect.origin.y = contentRect.minY + totalHeight - size.height
+                break
             case .topTextBottomImage:
-                rect.origin.y = contentRect.minY;
-                break;
+                rect.origin.y = contentRect.minY
+                break
             default:
-                rect.origin.y = contentRect.minY;
-                break;
+                rect.origin.y = contentRect.minY
+                break
             }
-            break;
+            break
         case .bottom:
             switch position {
             case .topImageBottomText:
-                rect.origin.y = contentRect.maxY - size.height;
-                break;
+                rect.origin.y = contentRect.maxY - size.height
+                break
             case .topTextBottomImage:
-                rect.origin.y = contentRect.maxY - totalHeight;
-                break;
+                rect.origin.y = contentRect.maxY - totalHeight
+                break
             default:
-                rect.origin.y = contentRect.maxY - size.height;
-                break;
+                rect.origin.y = contentRect.maxY - size.height
+                break
             }
-            break;
+            break
         case .fill:
             switch position {
             case .topImageBottomText:
-                rect.size.height = min(size.height, contentRect.height - iconSize.height - margin);
-                rect.origin.y = contentRect.maxY - rect.size.height;
-                break;
+                rect.size.height = min(size.height, contentRect.height - iconSize.height - margin)
+                rect.origin.y = contentRect.maxY - rect.size.height
+                break
             case .topTextBottomImage:
-                rect.origin.y = contentRect.minY;
-                rect.size.height = min(size.height, contentRect.height - iconSize.height - margin);
-                break;
+                rect.origin.y = contentRect.minY
+                rect.size.height = min(size.height, contentRect.height - iconSize.height - margin)
+                break
             default:
-                rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2;
-                break;
+                rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2
+                break
             }
-            break;
+            break
         default:
             switch position {
             case .topImageBottomText:
-                rect.origin.y = contentRect.maxY - (contentRect.height - totalHeight) / 2 - size.height;
-                break;
+                rect.origin.y = contentRect.maxY - (contentRect.height - totalHeight) / 2 - size.height
+                break
             case .topTextBottomImage:
-                rect.origin.y = contentRect.minY + (contentRect.height - totalHeight) / 2;
-                break;
+                rect.origin.y = contentRect.minY + (contentRect.height - totalHeight) / 2
+                break
             default:
-                rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2;
-                break;
+                rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2
+                break
             }
-            break;
+            break
         }
         
         return rect.integral
@@ -352,103 +352,103 @@ extension JWAdjustableButtonPosition: CustomStringConvertible {
                     rect.origin.x = contentRect.minX
                     break
             }
-            break;
+            break
         case .right:
             switch (position) {
                 case .leftTextRightImage:
-                    rect.origin.x = contentRect.maxX - size.width;
-                    break;
+                    rect.origin.x = contentRect.maxX - size.width
+                    break
                 case .leftImageRightText:
-                    rect.origin.x = contentRect.maxX - totalWidth;
-                    break;
+                    rect.origin.x = contentRect.maxX - totalWidth
+                    break
                 default:
-                    rect.origin.x = contentRect.maxX - size.width;
-                    break;
+                    rect.origin.x = contentRect.maxX - size.width
+                    break
             }
-            break;
+            break
         case .fill:
             switch position {
                 case .leftTextRightImage:
-                    rect.origin.x = contentRect.maxX - size.width;
-                    break;
+                    rect.origin.x = contentRect.maxX - size.width
+                    break
                 case .leftImageRightText:
-                    rect.origin.x = contentRect.minX;
-                    break;
+                    rect.origin.x = contentRect.minX
+                    break
                 default:
-                    rect.size.width = contentRect.width;
-                    rect.origin.x = contentRect.minX + (contentRect.width - rect.size.width) / 2;
-                    break;
+                    rect.size.width = contentRect.width
+                    rect.origin.x = contentRect.minX + (contentRect.width - rect.size.width) / 2
+                    break
             }
-            break;
+            break
         default:
             switch position {
                 case .leftTextRightImage:
-                    rect.origin.x = contentRect.minX + contentRect.width - (contentRect.width - totalWidth) / 2 - size.width;
-                    break;
+                    rect.origin.x = contentRect.minX + contentRect.width - (contentRect.width - totalWidth) / 2 - size.width
+                    break
                 case .leftImageRightText:
-                    rect.origin.x = contentRect.minX + (contentRect.width - totalWidth) / 2;
-                    break;
+                    rect.origin.x = contentRect.minX + (contentRect.width - totalWidth) / 2
+                    break
                 default:
-                    rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2;
-                    break;
+                    rect.origin.x = contentRect.minX + (contentRect.width - size.width) / 2
+                    break
             }
-            break;
+            break
         }
         
         switch (self.contentVerticalAlignment) {
         case .top:
             switch position {
                 case .topImageBottomText:
-                    rect.origin.y = contentRect.minY;
-                    break;
+                    rect.origin.y = contentRect.minY
+                    break
                 case .topTextBottomImage:
-                    rect.origin.y = contentRect.minY + totalHeight - size.height;
-                    break;
+                    rect.origin.y = contentRect.minY + totalHeight - size.height
+                    break
                 default:
-                    rect.origin.y = contentRect.minY;
-                    break;
+                    rect.origin.y = contentRect.minY
+                    break
             }
-            break;
+            break
         case .bottom:
             switch position {
                 case .topImageBottomText:
-                    rect.origin.y = contentRect.maxY - totalHeight;
-                    break;
+                    rect.origin.y = contentRect.maxY - totalHeight
+                    break
                 case .topTextBottomImage:
-                    rect.origin.y = contentRect.maxY - size.height;
-                    break;
+                    rect.origin.y = contentRect.maxY - size.height
+                    break
                 default:
-                    rect.origin.y = contentRect.maxY - size.height;
-                    break;
+                    rect.origin.y = contentRect.maxY - size.height
+                    break
             }
-            break;
+            break
         case .fill:
             switch position {
                 case .topImageBottomText:
-                    rect.origin.y = contentRect.minY;
-                    break;
+                    rect.origin.y = contentRect.minY
+                    break
                 case .topTextBottomImage:
-                    rect.origin.y = contentRect.maxY - size.height;
-                    break;
+                    rect.origin.y = contentRect.maxY - size.height
+                    break
                 default:
-                    rect.size.height = contentRect.height;
-                    rect.origin.y = contentRect.minY + (contentRect.height - rect.size.height) / 2;
-                    break;
+                    rect.size.height = contentRect.height
+                    rect.origin.y = contentRect.minY + (contentRect.height - rect.size.height) / 2
+                    break
             }
-            break;
+            break
         default:
             switch position {
                 case .topImageBottomText:
-                    rect.origin.y = contentRect.minY + (contentRect.height - totalHeight) / 2;
-                    break;
+                    rect.origin.y = contentRect.minY + (contentRect.height - totalHeight) / 2
+                    break
                 case .topTextBottomImage:
-                    rect.origin.y = contentRect.maxY - (contentRect.height - totalHeight) / 2 - size.height;
-                    break;
+                    rect.origin.y = contentRect.maxY - (contentRect.height - totalHeight) / 2 - size.height
+                    break
                 default:
-                    rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2;
-                    break;
+                    rect.origin.y = contentRect.minY + (contentRect.height - size.height) / 2
+                    break
             }
-            break;
+            break
         }
         
         return rect

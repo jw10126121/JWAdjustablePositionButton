@@ -22,7 +22,7 @@ pod 'JWAdjustablePositionButton'
 
 ## Author
 
-10126121@qq.com, 10126121@qq.com
+jw10126121, 10126121@qq.com
 
 ## License
 
