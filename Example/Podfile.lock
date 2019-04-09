@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JWAdjustablePositionButton: b7a8c5ed5650cef5f47c36928096656f2e1a43ef
+  JWAdjustablePositionButton: 308e67881d48bcdcb009daa9a86b2861c47fc9a6
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: 1a976cb264dc7a814c88787d39210cd602d606b3

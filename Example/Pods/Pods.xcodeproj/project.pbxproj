@@ -646,6 +646,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00242A9D304046FE5A0EF5AD7CF92CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
+				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
+				PRODUCT_NAME = JWAdjustablePositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -709,38 +740,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		23C6E18450F1D29B04D036D6814A16B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
-				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
-				PRODUCT_NAME = JWAdjustablePositionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		304C1A4C17BC64484BD7B927AE79D340 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -838,6 +837,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9C0534CCB0C027D1303ACFD1C5F3CDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
+				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
+				PRODUCT_NAME = JWAdjustablePositionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -965,37 +996,6 @@
 			};
 			name = Release;
 		};
-		C78D9AE19736D0F9EEDA995E51EB08BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AEF570033E892E38C68C9022AF7D981 /* JWAdjustablePositionButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JWAdjustablePositionButton/JWAdjustablePositionButton.modulemap";
-				PRODUCT_MODULE_NAME = JWAdjustablePositionButton;
-				PRODUCT_NAME = JWAdjustablePositionButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F7265777BD38F5CA674DA4904A3F4D6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA4CDB2FBBF1CB795226D86ED04824B1 /* Pods-JWAdjustablePositionButton_Tests.release.xcconfig */;
@@ -1063,8 +1063,8 @@
 		74DAAD4AA5495AE1589D9B5CAF70D74D /* Build configuration list for PBXNativeTarget "JWAdjustablePositionButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C78D9AE19736D0F9EEDA995E51EB08BC /* Debug */,
-				23C6E18450F1D29B04D036D6814A16B0 /* Release */,
+				00242A9D304046FE5A0EF5AD7CF92CC1 /* Debug */,
+				9C0534CCB0C027D1303ACFD1C5F3CDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
