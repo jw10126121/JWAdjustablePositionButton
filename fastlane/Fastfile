@@ -22,7 +22,7 @@ platform :ios do
   	scan(
     	workspace: "Example/JWAdjustablePositionButton.xcworkspace", 
     	scheme: "JWAdjustablePositionButton_Tests", 
-    	devices: ["iPhone SE"])
+    	devices: ["iPhone 8"])
   	UI.message("Test Succeeded")
   end
 
