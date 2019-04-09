@@ -8,7 +8,7 @@
 import UIKit
 
 /// 可调整按钮位置
-@objc public enum JWAdjustableButtonPosition: Int {
+public enum JWAdjustableButtonPosition: Int {
     /// 图片左、文字右
     case leftImageRightText
     /// 图片右、文字左
@@ -36,18 +36,23 @@ extension JWAdjustableButtonPosition: CustomStringConvertible {
 
 
 /// 可调整位置的按钮
-@objc public class JWAdjustablePositionButton: UIButton {
+public class JWAdjustablePositionButton: UIButton {
 
+//    #if TARGET_INTERFACE_BUILDER
+//    /// 位置
+//    @IBInspectable var position: Int = JWAdjustableButtonPosition.leftImageRightText.rawValue
+//    #else
     /// 位置
-    @IBInspectable @objc public var position: JWAdjustableButtonPosition = .leftImageRightText {
+    public var position: JWAdjustableButtonPosition = .leftImageRightText {
         didSet {
             invalidateIntrinsicContentSize()
             setNeedsLayout()
         }
     }
+//    #endif
 
     /// 图片与文本间距
-    @IBInspectable @objc public var contentSpace: CGFloat = 5 {
+    public var contentSpace: CGFloat = 5 {
         didSet {
             invalidateIntrinsicContentSize()
             setNeedsLayout()
@@ -55,7 +60,7 @@ extension JWAdjustableButtonPosition: CustomStringConvertible {
     }
     
     /// 自定义图片大小
-    @IBInspectable @objc public var imageSize: CGSize = .zero {
+    var imageSize: CGSize = .zero {
         didSet {
             invalidateIntrinsicContentSize()
             setNeedsLayout()
@@ -171,11 +176,8 @@ extension JWAdjustableButtonPosition: CustomStringConvertible {
     }
 
     override public func titleRect(forContentRect contentRect: CGRect) -> CGRect {
-        
         /// 文字大小
-        var size = super.titleRect(forContentRect: CGRect(x: 0, y: 0,
-                                                          width: contentRect.size.width,
-                                                          height: contentRect.size.height)).size
+        var size = super.titleRect(forContentRect: CGRect(x: 0, y: 0, width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)).size
         if contentVerticalAlignment == .fill {
             size.height = min(size.height, contentRect.height)
         }

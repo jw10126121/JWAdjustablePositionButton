@@ -1,22 +1,22 @@
 {
   "name": "JWAdjustablePositionButton",
-  "version": "0.1.0",
-  "summary": "A short description of JWAdjustablePositionButton.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/10126121@qq.com/JWAdjustablePositionButton",
+  "version": "0.0.1",
+  "summary": "JWAdjustablePositionButton.可调整图片与文字位置的按钮",
+  "description": "JWAdjustablePositionButton:自定义按钮。\n可调整图片与文字的位置和间距",
+  "homepage": "https://github.com/jw10126121/JWAdjustablePositionButton",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "10126121@qq.com": "10126121@qq.com"
+    "jw10126121": "10126121@qq.com"
   },
   "source": {
-    "git": "https://github.com/10126121@qq.com/JWAdjustablePositionButton.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jw10126121/JWAdjustablePositionButton.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "JWAdjustablePositionButton/Classes/**/*"
+  "source_files": "JWAdjustablePositionButton/Classes/**/*.swift"
 }

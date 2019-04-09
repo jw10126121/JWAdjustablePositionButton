@@ -1,5 +1,5 @@
 import XCTest
-import JWAdjustablePositionButton
+//import JWAdjustablePositionButton
 
 class Tests: XCTestCase {
     

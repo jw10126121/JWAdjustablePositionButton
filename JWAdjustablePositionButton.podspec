@@ -26,13 +26,13 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jw10126121/JWAdjustablePositionButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '10126121@qq.com' => '10126121@qq.com' }
-  s.source           = { :git => 'https://github.com/jw10126121/JWAdjustablePositionButton.git', :tag => s.version.to_s }
+  s.author           = { 'jw10126121' => '10126121@qq.com' }
+  s.source           = { :git => 'https://github.com/jw10126121/JWAdjustablePositionButton.git', :tag => "#{spec.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JWAdjustablePositionButton/Classes/**/*'
+  s.source_files = 'JWAdjustablePositionButton/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'JWAdjustablePositionButton' => ['JWAdjustablePositionButton/Assets/*.png']
